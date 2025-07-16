@@ -1,0 +1,21 @@
+{
+  "name": "aravindh-ai-chat",
+  "version": "1.0.0",
+  "description": "AI chat assistant for Aravindh's portfolio",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Aravindh",
+  "license": "MIT",
+  "dependencies": {
+    "@langchain/ollama": "^0.2.3",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "langchain": "^0.3.29"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
